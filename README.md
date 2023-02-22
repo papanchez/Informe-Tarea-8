@@ -59,6 +59,21 @@ b) 2 unidades a la izquierda del origen sobre el eje real, y 1.5 unidades hacia 
 
 c) 10 unidades a la izquierda del origen sobre el eje real, y 14 unidades hacia abajo sobre el eje 2j
 
+8. Convierta cada uno de los siguientes números rectangulares a forma polar:
+
+a) 40-j40
+
+b) 50-j200
+
+c) 35-j20
+
+d) 98+j45
+
+10. Exprese cada uno de los siguientes números polares utilizando un ángulo negativo para reemplazar al
+positivo.
+(a) (b) (c)
+
+12. Identifique el cuadrante en el cual se localiza cada uno de los puntos del problema 10.
 
 
 
