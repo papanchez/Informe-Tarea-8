@@ -71,16 +71,54 @@ d) 98+j45
 
 10. Exprese cada uno de los siguientes números polares utilizando un ángulo negativo para reemplazar al
 positivo.
-(a) (b) (c)
+
+a) 10∠120°
+
+b) 32∠-135°
+
+c)3∠180°
 
 12. Identifique el cuadrante en el cual se localiza cada uno de los puntos del problema 10.
 
+a) 10∠120°
 
+b) 32∠-135°
 
+c)3∠180°
 
+14. Sume los siguientes conjuntos de números complejos:
 
+a)9+j3+5+j8
 
+b)3.5-j4+2.2+j6
 
+c)-18+j23+30-j15
+
+d)15∠45° + 20∠32°
+
+e)3.8∠75° y 1+j1.8
+
+f)50-j39 y 60∠-30°
+
+16. Multiplique los siguientes números:
+
+a)4.5∠48° y 3.2∠90°
+
+b)120∠-220° y 102∠40°
+
+c)-3∠150° y 4-3j
+
+d)67+j84 y 102∠40°
+
+e)15-j10 y -25-j30
+
+f)0.8+j0.5 y 1.2-j1.5
+
+18. Realice las siguientes operaciones:
+
+![image](https://user-images.githubusercontent.com/116771507/220782773-be57efff-9bd7-4efb-a1a5-4afbd5f73bbf.png)
+
+SECCIÓN 15–2 Respuesta sinusoidal de circuitos RC en serie
 
 
 
