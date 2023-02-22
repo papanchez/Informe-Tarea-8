@@ -210,30 +210,69 @@ e)
 
 ![image](https://user-images.githubusercontent.com/116771507/220784611-f8392e42-450e-4e77-83bf-24f2281388ae.png)
 
+PARTE 3: CIRCUITOS EN SERIE-PARALELO
 
+SECCIÓN 15–7 Análisis de circuitos RC en serie-paralelo
 
+50. ¿Es el circuito de la figura 15-100 predominantemente resistivo o predominantemente capacitivo?
 
+![image](https://user-images.githubusercontent.com/116771507/220784863-af98d88b-a4a9-4cc7-b486-fa54994a91c6.png)
 
+52. Para el circuito de la figura 15-101, determine lo siguiente:
 
+![image](https://user-images.githubusercontent.com/116771507/220784951-d43d6bd5-a11d-4cfc-b5fa-07ac3cfaeb16.png)
 
+a)
 
+b)
 
+c)
 
+d)
 
+e)
 
+f)
 
+54. Determine el voltaje y su ángulo de fase en cada punto rotulado en la figura 15-103. 
 
+![image](https://user-images.githubusercontent.com/116771507/220784999-aa666e1f-79b4-4ef4-8db6-077eb373e916.png)
 
+56. Trace el diagrama fasorial de voltaje y corriente para la figura 15-103
 
+PARTE 4: TEMAS ESPECIALES
 
+SECCIÓN 15–8 Potencia en circuitos RC
 
+58. En la figura 15-88, ¿cuáles son la potencia real y la potencia reactiva?
 
+60. Determine Preal, Pr, Pa, y FP para el circuito de la figura 15-101. Trace el triángulo de potencia.
 
+SECCIÓN 15–9 Aplicaciones básicas
+62. Calcule la frecuencia de oscilación para el circuito de la figura 15-62 si todos los capacitores son de 0.0022 uF y todos los resistores de 10 kÆ. 
 
+64. El valor rms del voltaje de señal que sale del amplificador A en la figura 15-105 es de 50 mV. Si la resistencia de entrada al amplificador B es de 10 kÆ, ¿qué tanto de la señal se pierde debido al capacitor
+de acoplamiento cuando la frecuencia es de 3 kHz?
 
+![image](https://user-images.githubusercontent.com/116771507/220785223-8ebb1721-0711-40a8-98d4-4dfb65de8826.png)
 
+SECCIÓN 15–10 Localización de fallas
 
+66. Los capacitores de la figura 15-107 han desarrollado un resistencia de fuga de 2 kÆ. Determine los voltajes de salida en esta condición para cada circuito.
 
+![image](https://user-images.githubusercontent.com/116771507/220785294-6f7cb09a-a722-48d3-8870-ecd8212e1a65.png)
 
+68. Determine el voltaje de salida para el circuito de la figura 15-107(b) para cada uno de los siguientes
+modos de falla, y compárelo con la salida correcta:
+
+a) C abierto 
+
+b) C en cortocircuito 
+
+c) R1 abierto 
+
+d) R2 abierto 
+
+e) R3 abierto
 
 
