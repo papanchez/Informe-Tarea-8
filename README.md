@@ -47,72 +47,149 @@ d)-j8
 
 a) 3, j5 
 
+C=√((3)^2+(5)^2)= 5.83; Nuevo punto en 180°: -3,-5j
+
 b) -7, j1 
 
+C=√((-7)^2+(1)^2)= 7.07; Nuevo punto en 180°: 7,-j1
+
 c)-10,-j10
+
+C=√((-10)^2+(-10)^2)= 14.14; Nuevo punto en 180°: 10,-j10
 
 6. A continuación se describen puntos localizados en el plano complejo. Exprese cada punto como un número complejo en forma rectangular:
 
 a) 3 unidades a la derecha del origen sobre el eje real, y 5 unidades hacia arriba sobre el eje j.
 
+3+j5
+
 b) 2 unidades a la izquierda del origen sobre el eje real, y 1.5 unidades hacia arriba sobre el eje j.
 
+-2+j1.5
+
 c) 10 unidades a la izquierda del origen sobre el eje real, y 14 unidades hacia abajo sobre el eje 2j
+
+-10+j14
 
 8. Convierta cada uno de los siguientes números rectangulares a forma polar:
 
 a) 40-j40
 
+C=√((40)^2+(-40)^2)= 56.67
+
+θ= arctan(-40/40)= -45°
+
+56.67∠-45°
+
 b) 50-j200
+
+C=√((50)^2+(-200)^2)= 206.16
+
+θ= arctan(-200/50)= -75.96°
+
+206.16∠-75.96°
 
 c) 35-j20
 
+C=√((35)^2+(-20)^2)= 40.31
+
+θ= arctan(-20/35)= -29.74°
+
+40.31∠-29.74°
+
 d) 98+j45
+
+C=√((98)^2+(45)^2)= 107.84
+
+θ= arctan(-45/98)= 24.66°
+
+107.84∠24.66°
 
 10. Exprese cada uno de los siguientes números polares utilizando un ángulo negativo para reemplazar al
 positivo.
 
 a) 10∠120°
 
-b) 32∠-135°
+θ=-180°+120=-60°
 
-c)3∠180°
+10∠-60°
+
+b) 32∠85°
+
+θ=-180°+85°=-95°
+
+32∠-95°
+
+c)3∠310°
+
+θ=180°-310°=-130°
+
+32∠-130°
 
 12. Identifique el cuadrante en el cual se localiza cada uno de los puntos del problema 10.
 
-a) 10∠120°
+a) 10∠120° => Segundo cuadrante
 
-b) 32∠-135°
+b) 32∠-135° => Primer cuadrante
 
-c)3∠180°
+c)3∠180° =>Cuarto cuadrante
 
 14. Sume los siguientes conjuntos de números complejos:
 
-a)9+j3+5+j8
+a)9+j3+5+j8 = 14+j11
 
-b)3.5-j4+2.2+j6
+b)3.5-j4+2.2+j6 = 5.7+j2
 
-c)-18+j23+30-j15
+c)-18+j23+30-j15 = 12+j8
 
-d)15∠45° + 20∠32°
+d)15∠45° + 20∠32° = 32∠78°
 
 e)3.8∠75° y 1+j1.8
 
+A= 3.8 cos(75°)= 0.98
+
+jB= 3.8 sen(75)=3.67
+
+0.98+j3.67+1+j1.8= 1.98+j3.67
+
 f)50-j39 y 60∠-30°
+
+A= 3.8 cos(-30°)= 51.96
+
+jB= 3.8 sen(-30°)=-j30
+
+50-j39+51.96-j30= 101.96-j69
+
 
 16. Multiplique los siguientes números:
 
-a)4.5∠48° y 3.2∠90°
+a)4.5∠48° y 3.2∠90° = (4.5 x 3.2) ∠ (48°+90°)= 14.4 ∠ 138°
 
-b)120∠-220° y 102∠40°
+b)120∠-220° y 95∠200°= (120 x 102)∠ (-220°+200)= 11400∠-20
 
 c)-3∠150° y 4-3j
 
+C=√((-3)^2+(4)^2)= 5
+
+θ= arctan(-3/4)= -36.87°
+
+(-3 x 5) ∠ (150°-36.87) = -15∠113.13
+
 d)67+j84 y 102∠40°
+
+A= 120cos(40°)=91.93
+
+jB= 120sen(40°)=77.13
+
+(67+j84) x (91.93+j77.13)= 1236.12 + j12889.83
 
 e)15-j10 y -25-j30
 
+(15-j10)(-25-j30)= -75-j200
+
 f)0.8+j0.5 y 1.2-j1.5
+
+(0.8+j0.5)(1.2-j1.5)= 0.21-j0.6
 
 18. Realice las siguientes operaciones:
 
