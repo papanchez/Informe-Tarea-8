@@ -195,6 +195,41 @@ f)0.8+j0.5 y 1.2-j1.5
 
 ![image](https://user-images.githubusercontent.com/116771507/220782773-be57efff-9bd7-4efb-a1a5-4afbd5f73bbf.png)
 
+a) (0.7 ∠ 42°)/(1.2 ∠ 37°)= 0.58∠5°
+
+b) A= 100cos(15°)=96.59
+
+jB= 100sen(15°)=25.88
+
+(96.59+j25.88)(85-j150)/(25+j45)= (661195.25-j501984.25)/2290= 288.73-j219.21
+
+c)
+
+A= 250cos(90°)=0°
+                     => 0+j250
+jB= 250sen(90°)=250     
+
+A= 175cos(75°)=45.29
+                     => 45.29+j169.04
+jB= 175sen(75°)=169.04     
+
+A= 35cos(50°)=22.5
+                     => 22.5+j26.81
+jB= 35sen(50°)=26.81     
+
+(0+j250+j162.04)(50-j100)/(125+j90)(22.5+j26.81)
+
+=(45.29+j419.04)(50-j100)/(125+j90)(22.5+j26.81)
+
+=(-295426397.05+j298928606.075)/(56208869.2225)
+
+=-5.26 + j5.32
+
+d)
+
+((2.25)(3.8)/1.1)+ j(2-j2)= 7.77+j2-2= 5.77 + j2
+
+
 SECCIÓN 15–2 Respuesta sinusoidal de circuitos RC en serie
 
 20. ¿Cuál es la forma de onda de la corriente en el circuito del problema 19?
@@ -204,6 +239,45 @@ Es una onda senoidal
 22. Determine la magnitud de la impedancia y el ángulo de fase en cada circuito de la figura 15-85.
 
 ![image](https://user-images.githubusercontent.com/116771507/220783231-b71acf07-9e59-447e-88a1-1227894cb8f5.png)
+
+CIRCUITO A)
+
+R= 100kΩ+47kΩ= 147kΩ
+
+C= 1/(1/0.01uF + 1/0.022uF) = 0.00688 uF
+
+Xc= 1/2πfC = 1/(2π x 100 kHz x 0.00688uF)= 231kΩ
+
+Z= √(R^2 + Xc^2)= √(147kΩ^2 + 231kΩ^2)= 274 kΩ
+
+θ= arctan(Xc/R)= arctan(231kΩ/147kΩ)= 57.6°
+
+CIRCUITO B)
+
+R= 10 kΩ
+
+C= 470 pF + 470 pF = 940 pF
+
+Xc= 1/2πfC = 1/(2π x 20 kHz x 940pF)= 8.46kΩ
+
+Z= √(R^2 + Xc^2)= √(10kΩ^2 + 8.49kΩ^2)= 13.1 kΩ
+
+θ= arctan(Xc/R)= arctan(8.46kΩ/10kΩ)= 40.23°
+
+CIRCUITO C)
+
+R= 680 Ω + ((1.2kΩ x 1.8kΩ)/(1.2kΩ + 1.8kΩ) = 1.4 kΩ
+
+C= 1/(1uF + 1/0.001uF + 1/0.0022uF) = 0.0032 uF
+
+Xc= 1/2πfC = 1/(2π x 100 kHz x 0.0032uF)= 497.36kΩ
+
+Z= √(R^2 + Xc^2)= √(1.4kΩ^2 + 497.36kΩ^2)= 497.36 kΩ
+
+θ= arctan(Xc/R)= arctan(497.36 kΩ/1.4kΩ)= 89.84°
+
+
+
 
 24. Repita el problema 23 con C 5 0.0047 mF
 
