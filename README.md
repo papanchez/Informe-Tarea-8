@@ -278,10 +278,33 @@ Z= √(R^2 + Xc^2)= √(1.4kΩ^2 + 497.36kΩ^2)= 497.36 kΩ
 
 
 
-
-24. Repita el problema 23 con C 5 0.0047 mF
+24. Repita el problema 23 con C= 0.0047 mF
 
 ![image](https://user-images.githubusercontent.com/116771507/220783298-b9fcdb87-a75f-45f5-bcc2-45cf19afc1ee.png)
+
+a) 100 Hz
+
+Xc= 1/2πfC = 1/(2π x 100 Hz x 0.0047uF)= 339 kΩ
+
+Z= √(R^2 + Xc^2)= √(56kΩ^2 + 339kΩ^2)= 343 kΩ
+
+b) 500 Hz
+
+Xc= 1/2πfC = 1/(2π x 500 Hz x 0.0047uF)= 67.7 kΩ
+
+Z= √(R^2 + Xc^2)= √(56kΩ^2 + 67.7kΩ^2)= 87.9 kΩ
+
+c) 1 kHz
+
+Xc= 1/2πfC = 1/(2π x 1 kHz x 0.0047uF)= 33.9 kΩ
+
+Z= √(R^2 + Xc^2)= √(56kΩ^2 + 33.9kΩ^2)= 65.4 kΩ
+
+d)2.5 kHz
+
+Xc= 1/2πfC = 1/(2π x 2.5 kHz x 0.0047uF)= 13.5 kΩ
+
+Z= √(R^2 + Xc^2)= √(56kΩ^2 + 13.5kΩ^2)= 57.6 kΩ
 
 SECCIÓN 15–4 Análisis de circuitos RC en serie
 
@@ -289,9 +312,27 @@ SECCIÓN 15–4 Análisis de circuitos RC en serie
 
 ![image](https://user-images.githubusercontent.com/116771507/220783370-16dc6215-a773-465e-bfa0-7468596812fe.png)
 
+CIRCUITO A)
+
+Z= √(R^2 + Xc^2)= √(270Ω^2 + 100kΩ^2)= 288Ω
+
+I= Vs/Z= 10V/288Ω= 34.7 mA
+
+CIRCUITO B)
+
+Z= √(R^2 + Xc^2)= √(680Ω^2 + 1.0 kΩ^2)= 1209Ω
+
+I= Vs/Z= 5V/1209Ω= 4.14 mA
+
+28. Determine el ángulo de fase entre el voltaje aplicado y la corriente para cada circuito de la figura 15-85.
+
 30. Para el circuito de la figura 15-87, trace el diagrama fasorial que muestre todos los voltajes y la corriente total. Indique los ángulos de fase.
 
 ![image](https://user-images.githubusercontent.com/116771507/220783460-fe028da1-ce43-4c38-b992-39e3966e0c92.png)
+
+
+
+
 
 32. ¿A qué valor se debe ajustar el reóstato de la figura 15-89 para hacer que la corriente total sea de 10 mA?
 ¿Cuál es el ángulo resultante?
