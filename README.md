@@ -369,28 +369,59 @@ Z= √(R^2 + Xc^2)= √(1.4kΩ^2 + 497.36kΩ^2)= 497.36 kΩ
 I= Vs/Z= 5V/497.36Ω= 10.05 uA
 
 
-
-
-
-
 30. Para el circuito de la figura 15-87, trace el diagrama fasorial que muestre todos los voltajes y la corriente total. Indique los ángulos de fase.
 
 ![image](https://user-images.githubusercontent.com/116771507/220783460-fe028da1-ce43-4c38-b992-39e3966e0c92.png)
 
+R= (100Ω X 100Ω)/(100Ω + 100Ω)= 50Ω
 
+C= 1/(1/0.1uF + 1/0.22uF) = 0.0688 uF
 
+Xc= 1/2πfC = 1/(2π x 15 kHz x 0.0688 uF)= 154 Ω
 
+Z= √(R^2 + Xc^2)= √(50 Ω^2 + 154 Ω^2)= 162 Ω
+
+I= Vs/Z= 2V/162Ω= 12.3 mA
+
+Xc(0.1uF)= 1/2πfC = 1/(2π x 15 kHz x 0.1 uF)= 106 Ω
+
+Xc(0.22uF)= 1/2πfC = 1/(2π x 15 kHz x 0.22 uF)= 48.2 Ω
+
+Vc1= I x Xc(0.1uF)= 12.3 mA x 106 Ω= 1.31 V
+
+Vc2= I x Xc(0.22uF)= 12.3 mA x 48.2 Ω= 0.595 V
+
+VR= I x R = 12.3 mA x 50Ω= 0.616
+
+θ= arctan(Xc/R)= arctan(154Ω/50Ω)= 72°
 
 32. ¿A qué valor se debe ajustar el reóstato de la figura 15-89 para hacer que la corriente total sea de 10 mA?
 ¿Cuál es el ángulo resultante?
 
 ![image](https://user-images.githubusercontent.com/116771507/220783631-be33a767-eefa-4c10-8ab1-2b07dfa26b61.png)
 
+Z= Vs/Z = 10V/10mA= kΩ
+
+Xc= 1/2πfC = 1/(2π x 10 kHz x 0.027 uF)= 589 Ω
+
+R=  √((1000 Ω)^2 - (589 Ω)^2)= 808 Ω
+
+θ= arctan(Xc/R)= arctan(589Ω/808Ω)= -36.1°
+
 34. Para el circuito de retraso de la figura 15-91, determine el desplazamiento de fase entre el voltaje de entrada y el voltaje de salida para cada una de las siguientes frecuencias:
 
 a) 1 Hz 
 
+Xc= 1/2πfC = 1/(2π x 1 Hz x 0.039 uF)= 4.08 MΩ
+
+Φ= 90°- arctan(Xc/R)= 90° - arctan(4.08 MΩ/3.9kΩ)= 0.055°
+
 b) 100 Hz 
+
+Xc= 1/2πfC = 1/(2π x(100 Hz)0.039 uF)= 40.8 kΩ
+
+Φ= 90°- arctan(Xc/R)= 90° - arctan(4.08 MΩ/3.9kΩ)= 0.055°
+
 
 c) 1 kHz 
 
