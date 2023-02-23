@@ -1031,31 +1031,87 @@ SECCIÓN 16–6 Análisis de circuitos RL en serie-paralelo
 
 ![image](https://user-images.githubusercontent.com/116771507/220786257-cfe0bfc5-c919-4f28-92b5-66f8718f2782.png)
 
+XL= (2 x π x 400 Hz x 25mH)= 62.8Ω
+
+Rth= R3+R1||R2 = 48.8Ω
+
+XL>Rth    En el circuito es predominantemente inductivo.
+
 30. Para el circuito de la figura 16-69, determine lo siguiente:
 
 ![image](https://user-images.githubusercontent.com/116771507/220786282-6d32278f-3cf9-40c8-bb28-9c3525c353e1.png)
 
-a)
+a)Itot
 
-b)
+XL= (2 x π x 80 kHz x 8 mH)= 4.02 kΩ
 
-c)
+Itot= 18V/875Ω= 20.6 mA
 
-d)
+b)θ
 
-e)
+Rtot= 1.2kΩ||4.2kΩ+5.6kΩ= 6.54kΩ
 
-f)
+θ = arctan(4.02kΩ/6.54kΩ)= 31.6°
 
-g)
+c)VR1
+
+VR1= 20.6 mA x 1.2 kΩ = 24.72 V
+
+d)VR2
+
+VR2= 20.6mA x 3.3kΩ= 68 V
+
+e)VR3
+
+VR3= (6.89kΩ/7.53kΩ) x 13.8V = 12.6V
+
+f) VL1
+
+VL1= (4.02 kΩ)/√((6.37kΩ)^2 + (4.02Ω)^2) x 13.8V = 7.37V
+
+g)VL2
+
+VL2= (6.37 kΩ)/√((6.37kΩ)^2 + (4.02Ω)^2) x 13.8V = 11.67V
 
 32. Trace el diagrama fasorial de los voltajes y las corrientes que aparecen en la figura 16-70.
 
 ![image](https://user-images.githubusercontent.com/116771507/220786345-21d557ee-237e-4aaf-a52e-013e0ae91c71.png)
 
+θ = arctan(68Ω/100Ω)= 34.2°
+
+Req= 56.2Ω x cos34.2° = 46.5Ω
+
+XL(eq) = 56.2Ω x sen34.2° = 31.6 Ω
+
+ZB= √((47Ω+46.5Ω)^2 + (31.6Ω)^2) = 98.7Ω
+
+IR1= 40V/98.7Ω = 405mA
+
+IL1= (68Ω/ √((68Ω)^2 + (100Ω)^2))= 228mA
+
+IL2= 40V/120Ω= 333mA
+
+IR2= (100Ω/ √((68Ω)^2 + (100Ω)^2))= 335mA
+
+
 34. Determine el desplazamiento de fase y la atenuación desde la entrada hasta la salida para la red en configuración de escalera de la figura 16-72.
 
 ![image](https://user-images.githubusercontent.com/116771507/220786387-9ceed6fd-94b6-47b7-bd5a-5de472d37ce8.png)
+
+Rtot=2.41KΩ 
+
+XL= (2 x π x 10 kHz x 225mH)= 3.14KΩ
+
+θ = arctan(3.14kΩ/2.41kΩ)= 52.5°
+
+VR1= (2.41kΩ/ √((2.41kΩ)^2 + (3.14kΩ)^2))= 609 mV 
+
+VR2= (3.27kΩ/ √((3.27kΩ)^2 + (3.14kΩ)^2)) x 609mV = 225 mV 
+
+VR3= (6.8kΩ/ √((3.27kΩ)^2 + (5.6kΩ)^2)) x 225mV= 143 mV
+
+Atenuación= Vsalida/Ventrada= 143mV/1V= 0.143
+
 
 PARTE 4: TEMAS ESPECIALES
 
@@ -1063,13 +1119,34 @@ SECCIÓN 16–7 Potencia en circuitos RL
 
 36. En cierto circuito RL, la potencia verdadera es de 100 mW, y la potencia reactiva de 340 mVAR. ¿Cuál es la potencia aparente?
 
+Pa= √((Pver)^2 + (Pr)^2)= √((100mW)^2 + (340mVAR)^2) = 354mVA
+
+
+
 38. ¿Cuál es el factor de potencia en la figura 16-64?
 
 ![image](https://user-images.githubusercontent.com/116771507/220786488-0b5df624-c529-48eb-b309-9836f5ca2f4f.png)
 
-40. Determine la potencia verdadera para el circuito de la figura 16-70.
+θ = arctan(2.2kΩ/3.5kΩ)= 32.2°
+
+PF= cos32.2°= 0.846
+
+
+
+40. Determine la potencia verdadera para el circuito de la figura 16-70
 
 ![image](https://user-images.githubusercontent.com/116771507/220786526-5055d632-3dff-43b0-aeb7-0397630c4c3c.png)
+
+θ = arctan(150Ω/62Ω)= 67.3°
+
+cos67.3°= 0.386
+
+Z= √((444Ω)^2 + (534Ω)^2)= 649Ω
+
+Itot= 25V/694Ω = 36 mA
+
+Pver= 40v x 36mA x 0.386 = 555mW
+
 
 SECCIÓN 16–8 Aplicaciones básicas
 
@@ -1077,10 +1154,28 @@ SECCIÓN 16–8 Aplicaciones básicas
 
 ![image](https://user-images.githubusercontent.com/116771507/220786585-41ff1b85-11a9-4105-a466-9d8bc5eae70c.png)
 
+* 0 Khz => XL= 0kΩ ; Ztot= 39kΩ; Vsalida= 0mV
+
+* 1 Khz => XL= 62.8kΩ ; Ztot= 73.9kΩ; Vsalida= 42.5mV
+
+* 2 Khz => XL= 126kΩ ; Ztot= 132kΩ; Vsalida= 47.7mV
+
+* 3 Khz => XL= 189kΩ ; Ztot= 193kΩ; Vsalida= 49mV
+
+* 4 Khz => XL= 251kΩ ; Ztot= 254kΩ; Vsalida= 49.4mV
+
+* 5 Khz => XL= 314kΩ ; Ztot= 316kΩ; Vsalida= 49.7mV
+
 SECCIÓN 16–9 Localización de fallas
 44. Determine el voltaje a través de cada componente mostrado en la figura 16-73 si L1 está abierto.
 
 ![image](https://user-images.githubusercontent.com/116771507/220786647-537509b4-14ad-48ca-8a56-bd6ef5fdf83e.png)
+
+VR1= 5V                  VL1= 5V
+
+VR2= 0V                  VL2= 0V
+
+VR3= 0V
 
 4. VIDEO
 
