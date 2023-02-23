@@ -481,18 +481,55 @@ SECCIÓN 15–5 Impedancia y admitancia de circuitos RC en paralelo
 
 ![image](https://user-images.githubusercontent.com/116771507/220784112-a2cb2148-fdc7-4192-8d60-a2d52217d402.png)
 
+Z= (R x Xc)/(√(R^2 + Xc^2))= (1200 Ω x 2200 Ω)/(√(1200Ω^2 + 2000Ω^2))= 1.05 kΩ
+
+θ= arctan(Xc/R)= arctan(2000 Ω/1200 Ω)= 28.61° 
+
 
 42. Repita el problema 41 para las siguientes frecuencias:
 
+![image](https://user-images.githubusercontent.com/116771507/220784291-62a4208f-c443-4c9b-92d5-962c1ca211e7.png)
+
 a) 1.5 kHz 
+
+Bc= 2πfC =(2π x 1500 Hz x 0.22 uF)= 2.07 ms
+
+Y= √((1.33 ms)^2 + (2.07ms)^2)= 2.47 ms
+
+Z= 1/Y = 1/2.47= 405 Ω
+
+θ= arctan(4.36ms/1.33ms)= 72.2°
 
 b) 3 kHz 
 
+Bc= 2πfC =(2π x 3000 Hz x 0.22 uF)= 4.15 ms
+
+Y= √((1.33 ms)^2 + (4.15 ms)^2)= 4.36 ms
+
+Z= 1/Y = 1/4.36 ms = 230 Ω
+
+θ= arctan(4.36ms/1.33ms)= 72.2°
+
 c) 5 kHz 
+
+Bc= 2πfC =(2π x 5000 Hz x 0.22 uF)= 6.91 ms
+
+Y= √((1.33 ms)^2 + (6.91 ms)^2)= 7.04 ms
+
+Z= 1/Y = 1/7.04 ms = 142 Ω
+
+θ= arctan(6.91ms/1.33ms)= 79.1°
 
 d) 10 kHz
 
-![image](https://user-images.githubusercontent.com/116771507/220784291-62a4208f-c443-4c9b-92d5-962c1ca211e7.png)
+Bc= 2πfC =(2π x 10000 Hz x 0.22 uF)= 13.8 ms
+
+Y= √((1.33 ms)^2 + (13.8 ms)^2)= 13.9 ms
+
+Z= 1/Y = 1/13.8 ms= 72 Ω
+
+θ= arctan(13.8ms/1.33ms)= 84.5°
+
 
 SECCIÓN 15–6 Análisis de circuitos RC en paralelo
 
@@ -500,21 +537,56 @@ SECCIÓN 15–6 Análisis de circuitos RC en paralelo
 
 ![image](https://user-images.githubusercontent.com/116771507/220784356-20dfe681-0321-4ebf-a312-8d96a0ac90b7.png)
 
+Xc1= 1/2πfC= 1/(2 x π x 50 kHz x 0.047 uF)= 67.7 Ω
+
+Xc2= 1/2πfC= 1/(2 x π x 50 kHz x 0.022 uF)= 145 Ω
+
+Ic1= Vs/Xc1= 8V/67.7Ω = 118 mA
+
+Ic2= Vs/Xc2= 8V/145Ω = 55.3 mA
+
+IR1= Vs/R1= 8V/220Ω= 36.4 mA
+
+IR2= Vs/R1= 8V/180Ω= 118 mA
+
+Itot= √((80.8 mA)^2 + (173.3 mA)^2)= 191 mA
+
+θ= arctan(173.3mA/80.8mA)= 65°
+
 46. Repita el problema 45 con R= 5.6 kÆ, C1=0.047 uF, C2=0.022 uF, y f=500 Hz.
+
+Xc= 1/2πfC= 1/(2 x π x 500 Hz x 0.047 uF) = 6.77 kΩ
 
 a) Z
 
+Z= (10 Ω x 6.77kΩ) / (√((4.7kΩ)^2 + (6.77kΩ)^2))= 3.86 kΩ
+
 b)IR
+
+IR= Vs/R= 100mV/6.77kΩ = 21.3 uA
 
 c)IC(tot)
 
+Ic= Vs/Z = 100mV/3.86kΩ = 14.8 uA
+
 d)Itot
 
-e)
+Itot= Vs/Z = 100mV/3.86kΩ = 25.9 uA
+
+e)θ
+
+θ= arctan(4.7kΩ/6.77kΩ) = 34.8°
 
 48. Determine el valor al cual R1 debe ser ajustado para obtener un ángulo de fase de 30° entre el voltaje de fuente y la corriente total en la figura 15-99
 
 ![image](https://user-images.githubusercontent.com/116771507/220784611-f8392e42-450e-4e77-83bf-24f2281388ae.png)
+
+Xc= 1/2πfC= 1/(2 x π x 1 kHz x 0.01 uF) = 15.9 kΩ
+
+θ= arctan(Rtot/Xc) => Rtot= tanθ x Xc = tan(30°) x 15.9kΩ = 9.19kΩ
+
+Rtot= (R1 x R2)/(R1+R2)
+R1= (R2 x Rtot)/(R2 - Rtot) = (47 kΩ x 9.19 kΩ)/ 37.9kΩ = 11.4 kΩ
 
 PARTE 3: CIRCUITOS EN SERIE-PARALELO
 
@@ -524,21 +596,54 @@ SECCIÓN 15–7 Análisis de circuitos RC en serie-paralelo
 
 ![image](https://user-images.githubusercontent.com/116771507/220784863-af98d88b-a4a9-4cc7-b486-fa54994a91c6.png)
 
+Req= (39.6Ω)(cos85.5°)= 3.08Ω
+
+Xc1= 1/2πfC= 1/(2 x π x 15 kHz x 0.1 uF) = 106Ω
+
+Xc(eq)= 39.6 Ω x sen85.5° = 39.5Ω
+
+Por lo tanto Req= 3.08Ω 
+
+Xc1+Xc(eq)= 145.6Ω
+
+145.6Ω > 3.08Ω
+
+El circuito es prodominantemente capacitivo.
+
+
 52. Para el circuito de la figura 15-101, determine lo siguiente:
 
 ![image](https://user-images.githubusercontent.com/116771507/220784951-d43d6bd5-a11d-4cfc-b5fa-07ac3cfaeb16.png)
 
-a)
+Rtot= R1+R2||R3= 89.9 Ω
 
-b)
+Xc1= 1/2πfC= 1/(2 x π x 1kHz x 0.47uF) = 339Ω
 
-c)
+Z= (√((89.9Ω)^2 + (339Ω)^2))= 351 Ω
 
-d)
+a) Itot
 
-e)
+Itot= Vs/Z = 15V/351Ω = 42.7 mA
 
-f)
+b)θ
+
+θ= arctan(339Ω/89.9Ω)= 75.1°
+
+c) VR1
+
+VR1= (R1/Z)Vs = (47Ω/351Ω) x 15V = 2.01 V
+
+d) VR2
+
+VR1= ((R2||R3)/Z) Vs = ((100Ω||75Ω)/351Ω) x 15V = 1.83 V 
+
+e) VR3
+
+VR2 = VR3 = 1.83 V
+
+f) Vc
+
+Vc= (Xc/Z)Vs = (339Ω/351Ω)
 
 54. Determine el voltaje y su ángulo de fase en cada punto rotulado en la figura 15-103. 
 
