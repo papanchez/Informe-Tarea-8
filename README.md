@@ -824,6 +824,30 @@ Z= √((560Ω)^2 + (387Ω)^2)=609Ω
 
 ![image](https://user-images.githubusercontent.com/116771507/220785738-5549dfcd-bd46-426f-84b0-b8edc058623d.png)
 
+a) Z= 20Ω +j45Ω
+
+R= 20Ω x cos45° = 14.1Ω
+
+XL= 20Ω x sen45°= 14.1Ω
+
+b) Z=500 ∡ 35° 
+
+R= 200Ω x cos 35°= 410Ω
+
+XL= 500Ω x sen 35° = 287Ω
+
+c) 2.5 ∡ 72.5°kΩ
+
+R= 2.5 kΩ x cos 72.5°= 752Ω
+
+XL= 2.5kΩ x sen 72.5° = 2.38kΩ
+
+c) Z= 998 ∡ 45°kΩ
+
+R= 998 kΩ x cos 45°= 706 kΩ
+
+XL= 998 kΩ x sen 45° = 706 kΩ
+
 SECCIÓN 16–3 Análisis de circuitos RL en serie
 
 8. Se aplica un voltaje sinusoidal de 5 V, 10 kHz al circuito de la figura 16-57. Calcule el voltaje a través de la resistencia total encontrada en el problema 7.
