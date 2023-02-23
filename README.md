@@ -1,8 +1,8 @@
 # Informe-Tarea-8
 
-                                                           UNIVERSIDAD DE LAS FUERZAS ARMADAS ESPE
+                                     UNIVERSIDAD DE LAS FUERZAS ARMADAS ESPE
                                                             
-                                                           FUNDAMENTOS DE CIRCUITOS ELÉCTRICOS
+                                      FUNDAMENTOS DE CIRCUITOS ELÉCTRICOS
 
 NRC: 10063
 
