@@ -854,25 +854,87 @@ SECCIÓN 16–3 Análisis de circuitos RL en serie
 
 ![image](https://user-images.githubusercontent.com/116771507/220785801-881d1bd1-398d-4011-bd0e-2d1d0652eaaa.png)
 
+R= 330Ω+ (910Ω X 1000Ω)/910Ω+1000Ω= 806Ω
+
+L= 1/(1/5mH + 1/8.2mH)+1 mH = 4.1 mH
+
+XL= (2 x π x 10kHz x 4.1mH)= 257Ω
+
+VR= (806Ω/√((806Ω)^2 + (257Ω)^2) x 5V= 4.76V
+
+VL= (257Ω/√((806Ω)^2 + (257Ω)^2) x 5V= 1.52 V
+
+
 10. Exprese la corriente en forma polar para cada circuito de la figura 16-54.
 
 ![image](https://user-images.githubusercontent.com/116771507/220785850-3bb8e147-e1a3-4278-8638-3c1b14b41697.png)
+
+CIRCUITO A)
+
+Z= √((100Ω)^2 + (50Ω)^2) = 1.12kΩ
+
+I=10V/1.12kΩ= 8.94mA
+
+CIRCUITO B)
+
+Z= √((1.5kΩ)^2 + (1kΩ)^2) = 1.8kΩ
+
+I=5V/1.8kΩ= 2.77mA
 
 12. Determine u para el circuito de la figura 16-58.
 
 ![image](https://user-images.githubusercontent.com/116771507/220785881-8653f2b8-cdec-4364-98e7-19b619c20c74.png)
 
+R=47Ω
+
+XL= (2 x π x 60Hz x 0.1mH)= 37.7Ω
+
+θ= arctan(37.7Ω/47Ω)= 38.7°
+
+
 14. Trace las formas de onda de Vs, VR y VL en la figura 16-58. Muestre las relaciones de fase apropiadas.
 
 ![image](https://user-images.githubusercontent.com/116771507/220785939-fd0a235c-c0a1-4003-ac81-5635f34cea36.png)
+
+![image](https://user-images.githubusercontent.com/116771507/220817035-6ecb98bc-b81d-43a2-a0c3-cd6ae0ef9e5a.png)
+
 
 16. Determine la magnitud y el ángulo de fase del voltaje de fuente en la figura 16-60.
 
 ![image](https://user-images.githubusercontent.com/116771507/220785966-85d98ed3-63e0-4197-9a13-d3dc920ff2ec.png)
 
+Z=(15V+8.5V)/(2A+6.9A)=2.64Ω
+
+θ= arctan(2.64)= 69.25°
+
 18. Repita el problema 17 para el circuito de adelanto para encontrar el adelanto de fase en la figura 16-62.
 
 ![image](https://user-images.githubusercontent.com/116771507/220786007-655568b8-372a-417b-8623-841835fe5858.png)
+
+a) 1 Hz
+
+XL= (2 x π x 1Hz x 10 mH)= 62.8Ω
+
+Φ= arctan(62.8/39)= 0.092°
+
+b) 100Hz
+
+XL= (2 x π x 100Hz x 10 mH)= 6.28Ω
+
+Φ= arctan(6.28/39)= 9.15°
+
+c)1kHz
+
+XL= (2 x π x 1 kHz x 10 mH)= 62.8Ω
+
+Φ= arctan(62.8/39)= 58.2°
+
+d)10kHz
+
+XL= (2 x π x 10 kHz x 10 mH)= 628kΩ
+
+Φ= arctan(628/39)= 86.4°
+
 
 PARTE 2 CIRCUITOS EN PARALELO
 
@@ -882,17 +944,46 @@ SECCIÓN 16–4 Impedancia y admitancia de circuitos RL en paralelo
 
 a) 1.5 kHz 
 
+XL= (2 x π x 1.5 kHz x 800 uH)= 7.57 Ω
+
+Y= √((1/12Ω)^2 + (1/7.54Ω)^2) = 0.157 s
+
 b) 3 kHz 
+
+XL= (2 x π x 3 kHz x 800 uH)= 15.1 Ω
+
+Y= √((1/12Ω)^2 + (1/15.1Ω)^2) = 0.106 s
+
+Z= 1/0.106 s = 9.43Ω
 
 c) 5 kHz 
 
+XL= (2 x π x 5 kHz x 800 uH)= 25.1 Ω
+
+Y= √((1/12Ω)^2 + (1/15.1Ω)^2) = 0.092 s
+
+Z= 1/0.092 s = 10.9Ω
+
 d) 10 kHz
+
+XL= (2 x π x 10 kHz x 800 uH)= 50.2 Ω
+
+Y= √((1/12Ω)^2 + (1/50.2Ω)^2) = 0.086 s
+
+Z= 1/0.086 s = 11.6Ω
+
 
 SECCIÓN 16–5 Análisis de circuitos RL en paralelo
 
 22. Encuentre la corriente total y cada corriente de rama en la figura 16-64.
 
 ![image](https://user-images.githubusercontent.com/116771507/220786105-ddb2c3c1-b06b-4c8d-9423-8c88ed070906.png)
+
+IR= 10V/2.2kΩ = 4.55 mA
+
+IL= 10V/3.5KΩ= 2.86 mA
+
+IT=  √((4.55mA)^2 + (2.86mA)^2)= 5.37mA
 
 24. Repita el problema 23 para R 5 56 Æ y L 5 330 mH. 
 
