@@ -1192,6 +1192,8 @@ VR3= 0V
 
 4. VIDEO
 
+https://youtube.com/watch?v=BQfCBl2Cx3E&si=EnSIkaIECMiOmarE
+
 5 CONCLUSIONES
 
 6.BIBLIOGRAFÍA
