@@ -1,8 +1,8 @@
 # Informe-Tarea-8
 
-                                                               UNIVERSIDAD DE LAS FUERZAS ARMADAS ESPE
-
-                                                               FUNDAMENTOS DE CIRCUITOS ELÉCTRICOS
+                                                           UNIVERSIDAD DE LAS FUERZAS ARMADAS ESPE
+                                                            
+                                                           FUNDAMENTOS DE CIRCUITOS ELÉCTRICOS
 
 NRC: 10063
 
@@ -12,7 +12,16 @@ ESTUDIANTE: PÁNCHEZ GUAMUSHIG PABLO ANDRES
 
 OBJETIVO GENERAL:
 
+Comprender los conceptos encontrados sobre circuitos RL y RC vistos durante el análisis de los capitulo 15 y 16, con la finalidad de resolver de manera correcta los ejercicios propuestos además de reforzar los conocimientos aprendidos en clases.
+
 OBJETIVOS ESPECÍFICOS:
+
+Determinar la relación entre las corrientes y los voltajes en un circuito RC.
+
+Analizar y comprender el comportamiento de los circuitos RC y RL.
+
+Comprender la manera de analizar dos conjuntos de componentes en paralelo en un circuito RL.
+
 
 2.MARCO CONCEPTUAL
 
@@ -1195,6 +1204,8 @@ VR3= 0V
 https://youtube.com/watch?v=BQfCBl2Cx3E&si=EnSIkaIECMiOmarE
 
 5 CONCLUSIONES
+
+En conclusión, se examinó el procedimiento para analizar un circuito RL que contiene dos grupos de componentes en paralelo. Durante la realización de este informe se identificó la relevancia de la impedancia y la admitancia para resolver los ejercicios propuestos de la mejor manera posible. Además, se enfatizó en la importancia del uso y aplicación de números complejos y sus operaciones para comprender mejor los conceptos presentados en el análisis del circuito RL.
 
 6.BIBLIOGRAFÍA
 
