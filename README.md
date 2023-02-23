@@ -989,9 +989,39 @@ IT=  √((4.55mA)^2 + (2.86mA)^2)= 5.37mA
 
 ![image](https://user-images.githubusercontent.com/116771507/220786166-6310e5d8-ba89-456b-bde3-8e0cdfa497b6.png)
 
+a)Z
+
+XL= (2 x π x 2 kHz x 330 uH)= 54.15 Ω
+
+Z= (56Ω x 4.15Ω)/√((56Ω)^2 + (4.15Ω)^2) = 4.13kΩ
+
+b) IR
+
+IR= 50V/56Ω= 0.89A
+
+c) IL
+
+IL= 50V/4.15Ω= 12.05A
+
+d)Itot
+
+Itot= 50V/4.13Ω= 12.11A
+
+e) θ
+
+θ = arctan(56Ω/4.15Ω)= 85.76°
+
 26. Determine la magnitud y el ángulo de fase de la corriente total que aparece en la figura 16-67.
 
 ![image](https://user-images.githubusercontent.com/116771507/220786197-789c2d8a-e72e-4f9c-b3b4-7409dec3832c.png)
+
+Vs= 10V
+
+RT= 10V/16.3mA= 613Ω
+
+Itot= 16.3mA
+
+θ = arctan(8.3mA/8mA)= 46.05°
 
 PARTE 3: CIRCUITOS EN SERIE-PARALELO
 
