@@ -480,6 +480,8 @@ Xc= 1/2πfC = 1/(2π x 5000 Hz x 0.039 uF)= 816.18 Ω
 
 Φ= 90 - arctan(Xc/R)= 90 - arctan(816.18 Ω/3.9 kΩ)= 78.17°
 
+![image](https://user-images.githubusercontent.com/116771507/221008764-ffe09a20-c3ea-4bd0-aed5-52233046e95e.png)
+
 
 PARTE 2: CIRCUITOS EN PARALELO
 
@@ -1100,6 +1102,9 @@ IL1= (68Ω/ √((68Ω)^2 + (100Ω)^2))= 228mA
 IL2= 40V/120Ω= 333mA
 
 IR2= (100Ω/ √((68Ω)^2 + (100Ω)^2))= 335mA
+
+
+![image](https://user-images.githubusercontent.com/116771507/221008986-792fbd16-9190-4a80-b5ca-0e8fde0ba599.png)
 
 
 34. Determine el desplazamiento de fase y la atenuación desde la entrada hasta la salida para la red en configuración de escalera de la figura 16-72.
