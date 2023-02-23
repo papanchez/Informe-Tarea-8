@@ -326,6 +326,53 @@ I= Vs/Z= 5V/1209Ω= 4.14 mA
 
 28. Determine el ángulo de fase entre el voltaje aplicado y la corriente para cada circuito de la figura 15-85.
 
+CIRCUITO A)
+
+R= 100 kΩ + 47 kΩ = 147 kΩ
+
+C= 1/(1/0.01uF + 1/0.022uF) = 0.00688 uF
+
+Xc= 1/2πfC = 1/(2π x 100 kHz x 0.00688uF)= 231 kΩ
+
+Z= √(R^2 + Xc^2)= √(147kΩ^2 + 231kΩ^2)= 274 kΩ
+
+θ= arctan(Xc/R)= arctan(231 kΩ/147kΩ)= 57.6°
+
+I= Vs/Z= 50V/147Ω= 182 uA
+
+CIRCUITO B)
+
+R= 10 kΩ
+
+C= 470pF+470pF = 940 pF
+
+Xc= 1/2πfC = 1/(2π x 20 kHz x 940 pF)= 8.46 kΩ
+
+Z= √(R^2 + Xc^2)= √(10kΩ^2 + 8.46kΩ^2)= 13.1 kΩ
+
+θ= arctan(Xc/R)= arctan(8.46 kΩ/10kΩ)= 40.23°
+
+I= Vs/Z= 8V/13.1Ω= 610 uA
+
+CIRCUITO C)
+
+R= 680 Ω+ (1.2kΩ x 1.8kΩ)/(1.2kΩ+1.8kΩ)= 1.4 kΩ
+
+C= 1/(1uF + 1/0.001uF + 1/0.0022uF) = 0.0032 uF
+
+Xc= 1/2πfC = 1/(2π x 1.4 kHz x 0.0032uF)= 497.36 kΩ
+
+Z= √(R^2 + Xc^2)= √(1.4kΩ^2 + 497.36kΩ^2)= 497.36 kΩ
+
+θ= arctan(Xc/R)= arctan(497.36 kΩ/1.4 kΩ)= 89.84°
+
+I= Vs/Z= 5V/497.36Ω= 10.05 uA
+
+
+
+
+
+
 30. Para el circuito de la figura 15-87, trace el diagrama fasorial que muestre todos los voltajes y la corriente total. Indique los ángulos de fase.
 
 ![image](https://user-images.githubusercontent.com/116771507/220783460-fe028da1-ce43-4c38-b992-39e3966e0c92.png)
