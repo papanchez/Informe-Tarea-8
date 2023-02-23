@@ -410,6 +410,8 @@ R=  √((1000 Ω)^2 - (589 Ω)^2)= 808 Ω
 
 34. Para el circuito de retraso de la figura 15-91, determine el desplazamiento de fase entre el voltaje de entrada y el voltaje de salida para cada una de las siguientes frecuencias:
 
+![image](https://user-images.githubusercontent.com/116771507/220783938-f09a28aa-38dc-41d4-bbc9-9c2f24bd6ed2.png)
+
 a) 1 Hz 
 
 Xc= 1/2πfC = 1/(2π x 1 Hz x 0.039 uF)= 4.08 MΩ
@@ -420,22 +422,56 @@ b) 100 Hz
 
 Xc= 1/2πfC = 1/(2π x(100 Hz)0.039 uF)= 40.8 kΩ
 
-Φ= 90°- arctan(Xc/R)= 90° - arctan(4.08 MΩ/3.9kΩ)= 0.055°
-
+Φ= 90°- arctan(Xc/R)= 90° - arctan(40.8 kΩ/3.9kΩ)=5.46°
 
 c) 1 kHz 
 
+Xc= 1/2πfC = 1/(2π x 1000 Hz x 0.039 uF)= 4.08 kΩ
+
+Φ= 90°- arctan(Xc/R)= 90° - arctan(4.08 kΩ/3.9kΩ)=53.7°
+
 d) 10 kHz
 
-![image](https://user-images.githubusercontent.com/116771507/220783938-f09a28aa-38dc-41d4-bbc9-9c2f24bd6ed2.png)
+Xc= 1/2πfC = 1/(2π x 10000 Hz x 0.039 uF)= 408 Ω
+
+Φ= 90°- arctan(Xc/R)= 90° - arctan(408 kΩ/3.9kΩ)=84°
 
 36. Repita el problema 34 para el circuito de adelanto de la figura 15-92.
 
 ![image](https://user-images.githubusercontent.com/116771507/220783981-701f0af8-c73d-4ee9-be0b-9ad8e0ceed39.png)
 
+a) 1 Hz 
+
+Xc= 1/2πfC = 1/(2π x 1 Hz x 10 uF)= 15.9 MΩ
+
+Φ= arctan(Xc/R)= arctan(15.9 MΩ/10Ω)= 90°
+
+b) 100 Hz 
+
+Xc= 1/2πfC = 1/(2π x 100 Hz x 10 uF)= 15.9 kΩ
+
+Φ= arctan(Xc/R)= arctan(15.9 kΩ/10Ω)= 86.4°
+
+c) 1 kHz 
+
+Xc= 1/2πfC = 1/(2π x 1000 Hz x 10 uF)= 1.59 kΩ
+
+Φ= arctan(Xc/R)= arctan(1.59 kΩ/10Ω)= 57.8°
+
+d) 10 kHz
+
+Xc= 1/2πfC = 1/(2π x 10000 Hz x 10 uF)= 159 Ω
+
+Φ= arctan(Xc/R)= arctan(159 Ω/10Ω)= 9.04°
+
 38. Trace el diagrama fasorial de voltaje para el circuito de la figura 15-91 para una frecuencia de 5 kHz con Vs=1 V rms. 
 
 ![image](https://user-images.githubusercontent.com/116771507/220784068-8df616d4-8c9f-4770-8a1a-d4b6426f14a1.png)
+
+Xc= 1/2πfC = 1/(2π x 5000 Hz x 0.039 uF)= 816.18 Ω
+
+Φ= 90 - arctan(Xc/R)= 90 - arctan(816.18 Ω/3.9 kΩ)= 78.17°
+
 
 PARTE 2: CIRCUITOS EN PARALELO
 
