@@ -649,7 +649,39 @@ Vc= (Xc/Z)Vs = (339Ω/351Ω)
 
 ![image](https://user-images.githubusercontent.com/116771507/220784999-aa666e1f-79b4-4ef4-8db6-077eb373e916.png)
 
+Xc1= 1/2πfC= 1/(2 x π x 2.5kHz x 0.015uF) = 4244Ω
+
+Xc2= 1/2πfC= 1/(2 x π x 2.5kHz x 0.047uF) = 1335Ω
+
+R4||Xc2= 756Ω
+
+θ R4C2= arctan(910Ω/1335Ω)= 33.9°
+
+
+Xc(eq) = (756 Ω) sen33.9 = 422Ω
+
+Ztot= √((3307Ω)^2 + (4666Ω)^2)= 5719Ω
+
+θ= arctan(4666Ω/3307Ω)= 54.7°
+
+Itot= Vs/Z = 10V/5719Ω= 1.75 mA
+
+IR4= (1355Ω/ √((910Ω)^2 + (1335Ω)^2) x 1.75mA = 1.45 mA
+
+Vc1= (1.75 mA) (4244Ω) = 7.43V
+
+VR1= (1.75 mA)(1kΩ)= 1.75V
+
+VR2= (1.75mA)(220Ω)=385mAV
+
+VR3= (1.75mA)(680Ω) = 1.19V
+
+VR4= (1.45 mA)(910Ω)= 1.32V
+
+
 56. Trace el diagrama fasorial de voltaje y corriente para la figura 15-103
+
+![image](https://user-images.githubusercontent.com/116771507/220810970-12d36508-7998-4b2a-b1f2-2c2858188492.png)
 
 PARTE 4: TEMAS ESPECIALES
 
@@ -657,15 +689,43 @@ SECCIÓN 15–8 Potencia en circuitos RC
 
 58. En la figura 15-88, ¿cuáles son la potencia real y la potencia reactiva?
 
+![image](https://user-images.githubusercontent.com/116771507/220811018-d8e9b065-14f3-4a57-8c79-e627f4b403c9.png)
+
+Itot= 103mA
+
+Xc= 79.6Ω
+
+Preal= (103mA)^2 x (56Ω) = 0.591 W
+
+Pr= (103mA)^2 x (79.6Ω)=0.840 VAR
+
 60. Determine Preal, Pr, Pa, y FP para el circuito de la figura 15-101. Trace el triángulo de potencia.
+
+Itot= 42.7 mA; Rtot= 89.9Ω; Xc= 339Ω;  Z= 351Ω
+
+Preal= (42.7mA)^2 x (89.9Ω)= 169 mW
+
+Pr= (42.7mA)^2 x (339Ω)= 618mVAR
+
+Pa= (42.7mA)^2 x (351Ω)= 640 mVA
+
+PF= cosθ= cos(75.1°)= 0.257
 
 SECCIÓN 15–9 Aplicaciones básicas
 62. Calcule la frecuencia de oscilación para el circuito de la figura 15-62 si todos los capacitores son de 0.0022 uF y todos los resistores de 10 kÆ. 
+
+fr= 1/(2 x π x √6 x 10 kΩ x 0.0022uF) = 2.95kHz
 
 64. El valor rms del voltaje de señal que sale del amplificador A en la figura 15-105 es de 50 mV. Si la resistencia de entrada al amplificador B es de 10 kÆ, ¿qué tanto de la señal se pierde debido al capacitor
 de acoplamiento cuando la frecuencia es de 3 kHz?
 
 ![image](https://user-images.githubusercontent.com/116771507/220785223-8ebb1721-0711-40a8-98d4-4dfb65de8826.png)
+
+Xc= 1/2πfC= 1/(2 x π x 3KHz x 0.047uF)= 1.13kΩ 
+
+La perdida de señal es la caida de tensión en C
+
+Vc= (1.13kΩ/√((10kΩ)^2 + (1.13kΩ)^2) = 5.61 mV
 
 SECCIÓN 15–10 Localización de fallas
 
@@ -673,18 +733,51 @@ SECCIÓN 15–10 Localización de fallas
 
 ![image](https://user-images.githubusercontent.com/116771507/220785294-6f7cb09a-a722-48d3-8870-ecd8212e1a65.png)
 
+CIRCUITO A)
+
+Rth= R1||R2||RL= 1.43 kΩ
+
+Vth= (1.67kΩ/11.67kΩ) x 1V = 143mV
+
+Xc= 1/(2 x π x 10Hz x 4.7uF)= 3386Ω
+
+Vsalida= (3386 Ω/√((1.43kΩ)^2 + (3386kΩ)^2) x 143mV = 132mV
+
+
+CIRCUITO B) 
+
+Xc= 1/(2 x π x 100Hz x 470pF)= 3386Ω
+
+Req= R1||(R2+R3) = 1.05KΩ
+
+Xc||Req= (2 kΩ x 33686Ω/√((2kΩ)^2 + (3386Ω)^2)= 1722Ω
+
+VR1= 1.96V
+
+Vsalida= (1kΩ/2kΩ)x 1.96V = 0.978 V
+
 68. Determine el voltaje de salida para el circuito de la figura 15-107(b) para cada uno de los siguientes
 modos de falla, y compárelo con la salida correcta:
 
 a) C abierto 
 
+Vsalida= 0V menos de lo normal
+
 b) C en cortocircuito 
+
+Vsalida= (1kΩ/2kΩ) x 5V =2.5 V =>Mayor que ña salida normal
 
 c) R1 abierto 
 
+Vsalida= (1000Ω/3933Ω) x 5V =1.27 V =>Mayor que la salida normal
+
 d) R2 abierto 
 
+Vsalida= Ov => menos de lo normal.
+
 e) R3 abierto
+
+Vsalida= (2.2kΩ/4038Ω) x 5V =2.72 V => Mayor que la salida normal-
 
 ![image](https://user-images.githubusercontent.com/116771507/220785432-767cf67d-834d-49a1-a579-29e6ad4f5c74.png)
 
@@ -694,11 +787,38 @@ SECCIÓN 16–1 Respuesta sinusoidal de circuitos RL en serie
 
 2. ¿Cuáles son las formas de onda de I, VR y VL en el problema 1?
 
+I, VR y VL son ondas de forma sinusoidal
+
 SECCIÓN 16–2 Impedancia de circuitos RL en serie
 
 4. Determine la magnitud de la impedancia y el ángulo de fase en cada circuito de la figura 16-55. Trace los diagramas de impedancia.
 
 ![image](https://user-images.githubusercontent.com/116771507/220785685-03730860-0a05-4bf1-b56d-8120d52f7d1c.png)
+
+CIRCUITO A)
+
+R= 47Ω+10Ω= 57Ω
+
+L= 50mH+100mH= 150mH
+
+XL= (2 x π x 100Hz x 150mH)= 94.2 mH
+
+Z= √((57Ω)^2 + (94.2Ω)^2)=110Ω
+
+θ= arctan(94.2Ω/57Ω)= 58.8°
+
+CIRCUITO B)
+
+R=560Ω
+
+L= (5mH x 8mH)/(5+8)mH = 3.08mH
+
+XL= (2 x π x 20kHz x 3.08mH)= 387Ω
+
+Z= √((560Ω)^2 + (387Ω)^2)=609Ω
+
+θ= arctan(387Ω/560Ω)= 39.5°
+
 
 6. Determine los valores de R y XL en un circuito RL en serie con los siguientes valores de impedancia total:
 
