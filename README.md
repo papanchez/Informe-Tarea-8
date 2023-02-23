@@ -16,6 +16,14 @@ OBJETIVOS ESPECÍFICOS:
 
 2.MARCO CONCEPTUAL
 
+![image](https://user-images.githubusercontent.com/116771507/221007321-e96e168e-4b58-4cab-a99e-001295cd1e26.png)
+
+![image](https://user-images.githubusercontent.com/116771507/221007400-ba1cdd1b-85e7-4279-9fed-a53d7999d623.png)
+
+![image](https://user-images.githubusercontent.com/116771507/221007470-727bcbe4-353b-4b04-ba4f-7b0da6011701.png)
+
+![image](https://user-images.githubusercontent.com/116771507/221007536-b47f98f8-8ee6-4ee2-a753-fec47a62a2be.png)
+
 
 3.RESOLUCIÓN DE EJERCICIOS
 
